@@ -1,0 +1,26 @@
+{
+  "name": "express-on-azure",
+  "version": "1.0.0",
+  "description": "A sample application for Graphql APi's using the Express framework",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Tshenolo ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/microsoft/vscode-tas-express"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.8",
+    "mongoose": "^5.8.9",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
